@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/signup.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <div class="profile">
+          <img src="./img/Chrysanthemum.jpg" title="profile" />
+          <h1>YOUR NAME</h1>
+          <p>developer</p>
+        </div>
+        <ul>
+          <li>
+            <a href="./index.html">
+              <span class="icon">
+                <i class="fa fa-address-card"></i>
+              </span>
+              <span class="item">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="./dashboard.html">
+              <span class="icon">
+                <i class="fa fa-birthday-cake"></i>
+              </span>
+              <span class="item">My Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon">
+                <i class="fa fa-address-book"></i>
+              </span>
+              <span class="item">People</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon">
+                <i class="fa fa-check"></i>
+              </span>
+              <span class="item">Performent</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon">
+                <i class="fa fa-address-book"></i>
+              </span>
+              <span class="item">Development</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon">
+                <i class="fa fa-address-book"></i>
+              </span>
+              <span class="item">Report</span>
+            </a>
+          </li>
+          <li>
+            <a href="./signup.html">
+              <span class="icon">
+                <i class="fa fa-address-book"></i>
+              </span>
+              <span class="item">Sign up</span>
+            </a>
+          </li>
+          <li>
+            <a href="setting.html">
+              <span class="icon">
+                <i class="fa fa-address-book"></i>
+              </span>
+              <span class="item">Setting</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <h2>Register</h2>
+        <form name="Registration">
+          <div class="row">
+            <div class="div1">
+              <label for="userid">User ID</label>
+            </div>
+            <div class="div2">
+              <input
+                type="text"
+                id="userid"
+                name="userid"
+                placeholder="User ID.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="div1">
+              <label for="passid">Password</label>
+            </div>
+            <div class="div2">
+              <input
+                type="text"
+                id="passid"
+                name="passid"
+                placeholder="Your Password"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="div1">
+              <label for="username">User Name</label>
+            </div>
+            <div class="div2">
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="User Name"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="div1">
+              <label for="address">Address</label>
+            </div>
+            <div class="div2">
+              <textarea
+                id="address"
+                name="address"
+                placeholder="address..."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="div1">
+              <label for="country">Country</label>
+            </div>
+            <div class="div2">
+              <select id="country" name="country">
+                <option value="default" Please Choose Country></option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="div1">
+              <label for="zip">Zip Code</label>
+            </div>
+            <div class="div2">
+              <input
+                type="text"
+                id="zip"
+                name="zip"
+                placeholder="Zip Code Number.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="div1">
+              <label for="email">Email</label>
+            </div>
+            <div class="div2">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Enter Email.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="div1">
+              <label>Language</label>
+            </div>
+            <div class="div2">
+              <input type="checkbox" id="checkall" name="" />CheckAll
+              <fieldset class="field1">
+                <legend>Please Choose Language</legend>
+                <label class="chk">
+                  <input type="checkbox" name="language" value="My" />
+                  Myanmar
+                </label>
+                <label class="chk">
+                  <input type="checkbox" name="language" value="Eng" />
+                  English
+                </label>
+                <label class="chk">
+                  <input type="checkbox" name="language" value="Chn" />
+                  Chinese
+                </label>
+                <label class="chk">
+                  <input type="checkbox" name="language" value="Jpn" />
+                  Japanese
+                </label>
+              </fieldset>
+              <fieldset class="field2">
+                <legend>Please Choose Language</legend>
+                <label class="chk">
+                  <input type="checkbox" name="language" value="My" checked />
+                  Myanmar
+                </label>
+                <label class="chk">
+                  <input type="checkbox" name="language" value="Eng" checked />
+                  English
+                </label>
+                <label class="chk">
+                  <input type="checkbox" name="language" value="Chn" checked />
+                  Chinese
+                </label>
+                <label class="chk">
+                  <input type="checkbox" name="language" value="Jpn" checked />
+                  Japanese
+                </label>
+              </fieldset>
+            </div>
+          </div>
+          <div class="row">
+            <div class="div1">
+              <label for="">Gender</label>
+            </div>
+            <div class="div2">
+              <input type="radio" id="msex" name="msex" placeholder="male" />
+              Male
+              <input type="radio" id="fsex" name="fsex" placeholder="female" />
+              Female
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <input type="submit" value="Register" name="btnsubmit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

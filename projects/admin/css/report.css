@@ -1,0 +1,79 @@
+.table2 img {
+  width: 200px;
+}
+table {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+.tap1 {
+  padding-bottom: 20px;
+}
+.none tr td {
+  padding: 10px;
+}
+.none {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.table1 {
+  width: 50px;
+}
+.table2 {
+  width: 200px;
+}
+.table3 {
+  width: 100px;
+}
+.table4 {
+  width: 400px;
+}
+.table5 {
+  width: 200px;
+}
+.none td {
+  vertical-align: top;
+  border: 1px solid black;
+}
+.bottom1 {
+  background-color: #5d5d5d;
+  border: none;
+  color: white;
+  margin: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px;
+}
+.bottom2 {
+  background-color: #00308f;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px;
+}
+.bottom3 {
+  background-color: #af002a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px 10px;
+}
+.bottom4 {
+  background-color: #84de02;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}

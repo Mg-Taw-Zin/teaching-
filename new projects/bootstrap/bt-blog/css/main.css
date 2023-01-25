@@ -1,0 +1,11 @@
+.bg-orange {
+  background-color: rgb(200, 200, 60) !important;
+}
+.carousel-item img {
+  height: 90vh !important;
+}
+.carousel-caption {
+  bottom: 14.25rem !important;
+}
+.card {
+}

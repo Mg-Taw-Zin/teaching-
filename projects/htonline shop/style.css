@@ -1,0 +1,111 @@
+* {ss
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding-left: 300px;
+  padding-right: 10px;
+  font-family: Arial;
+  color: white;
+}
+h3 {
+  text-decoration: none;
+  color: white;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+.title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.maindiv {
+  background-color: purple;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+}
+
+.laststa {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  width: 280px;
+  height: 50px;
+  bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+.main {
+  padding: 20px;
+  color: black;
+  display: inline-block;
+  font-size: 25px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.icon {
+  padding-left: 20px;
+}
+.list {
+  padding: 20px;
+  color: black;
+  width: 96%;
+  background-color: rgb(93, 206, 212);
+  margin-left: 20px;
+  height: 100%;
+  margin-top: 20px;
+}
+input,
+select {
+  width: 99%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.product {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+button[type=""] {
+  margin-bottom: 20px;
+  border: 1px black;
+}
+
+button[type="submit"]:hover {
+  background-color: blue;
+}
+button[type="submit"] {
+  background-color: purple;
+  padding: 0 0 0 50px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  width: 280px;
+  text-align: left;
+  vertical-align: center;
+}
+.choose {
+  border: 1px solid black;
+  width: 99%;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.quality {
+  margin-top: 30px;
+}

@@ -1,0 +1,40 @@
+		*
+		{
+			font-family: monospace;
+		}
+
+		p
+		{
+			font-size: 30px;
+			color: rgb(54, 145, 17);
+			
+		}
+		a
+		{
+			text-decoration: none;
+		}
+		body
+		{
+			background-color: yellow;
+		}
+		u,i
+		{
+			text-transform: uppercase;
+		}
+		.egclass
+		{
+			font-weight:  bold;
+		}
+		#egid
+		{
+			 text-align:  center;
+		}
+		.egclass1
+		{
+			font-style: italic;
+		}
+		p.egclass > span
+		{
+			font-size: 30px;
+			text-shadow: 3px 3px 5px blue;
+		}
