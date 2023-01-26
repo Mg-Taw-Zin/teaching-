@@ -15,6 +15,7 @@
 // </p>
 // </div>`;
 // console.log(card);
+
 // let email = " Bobo@gmail.com ";
 // console.log(email.length);
 // console.log(email.trim().length);

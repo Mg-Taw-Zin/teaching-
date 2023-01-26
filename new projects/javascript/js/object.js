@@ -22,6 +22,7 @@
 // console.log(gender);
 // console.log(hobby[1]);
 // console.log(address.city);
+// object discture
 
 // user.name = "john";
 // user.age = 25;
@@ -91,30 +92,32 @@
 // let toArray = JSON.parse(toJson);
 // console.log(toArray);
 
-const dice = {
-  sides: 6,
-  roll(count) {
-    i = 0;
-    let a = [];
-    let b = [];
-    while (i < count) {
-      //diec start 1
-      let res = Math.floor(this.sides * Math.random() + 1);
-      if (res <= 3) {
-        a.push(res);
-      } else {
-        b.push(res);
-      }
-      i++;
-    }
-    console.log(`a win ${a.length}`);
-    console.log(`b win ${b.length}`);
-    if (a.length === b.length) {
-      console.log("game is draw");
-    } else {
-      let w = a.length > b.length ? "a winner" : "b winner";
-      console.log(w);
-    }
-  },
-};
-dice.roll(12);
+// const dice = {
+//   sides: 6,
+//   roll(count) {
+//     i = 0;
+//     let a = [];
+//     let b = [];
+//     while (i < count) {
+//       
+//diec start 
+//       let res = Math.floor(this.sides * Math.random() + 1);
+//       if (res <= 3) {
+//         a.push(res);
+//       } else {
+//         b.push(res);
+//       }
+//       i++;
+//     }
+//     console.log(`a win ${a.length}`);
+//     console.log(`b win ${b.length}`);
+//
+//     if (a.length === b.length) {
+//       console.log("game is draw");
+//     } else {
+//       let w = a.length > b.length ? "a winner" : "b winner";
+//       console.log(w);
+//     }
+//   },
+// };
+// dice.roll(12);

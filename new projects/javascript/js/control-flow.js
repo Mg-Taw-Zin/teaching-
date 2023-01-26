@@ -6,18 +6,21 @@
 // console.log("a is ", a);
 // console.log("b is ", b);
 // console.log("c is ", c);
-// let num1 = 10;
-// let num2 = "10";
+
 // double equal check only value
 // triple equal check value and datatype
+// let num1 = 10;
+// let num2 = "10";
 // if (num1 === num2) {
 //   console.log("yes");
 // } else {
 //   console.log("no");
 // }
+
 // ternary opetator
 // let res = num1 === num2 ? "yes" : "no";
 // console.log(res);
+
 // nullish coalescing (??)
 // let color;
 // let ans = color ?? "green";
@@ -32,11 +35,13 @@
 // } else {
 //   console.log("no");
 // }
+
 // if (a === 100 || b === 20 || c === 30) {
 //   console.log("yes");
 // } else {
 //   console.log("no");
 // }
+
 // let t = !true;
 // console.log(t);
 
@@ -45,8 +50,8 @@
 //   if (i === 20) break;
 //   console.log("hello", i);
 // }
-let user = ["bobo", "mgmg", "koko", "rose", "nono", "momo"];
 
+// let user = ["bobo", "mgmg", "koko", "rose", "nono", "momo"];
 // for (let i = 0; i < user.length; i++) {
 //   let u = user[i];
 //   if (u === user[i]);
@@ -61,8 +66,8 @@ let user = ["bobo", "mgmg", "koko", "rose", "nono", "momo"];
 //   i++;
 // }
 
-let i = 10;
-do {
-  console.log("hello world");
-  i++;
-} while (i < user.length);
+// let i = 10;
+// do {
+//   console.log("hello world");
+//   i++;
+// } while (i < user.length);

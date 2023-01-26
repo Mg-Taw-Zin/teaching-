@@ -58,20 +58,26 @@
 //   console.log("say hello");
 // };
 // hi();
+
 // let add = function (a = 1, b = 1) {
 //   console.log(a + b);
 // };
 // add();
 // add(2, 2);
 
+//short function
 // let hello = () => {
 //   console.log("hello arrow");
 // };
-// // important
+
+// // most used
 // let hello2 = () => console.log("hello arrow");
-// // important
+// // most used
+
 // let hello3 = () => "hello arrow";
 // let hello4 = (_) => "hello arrow";
+//short function
+
 // hello();
 // hello2();
 // console.log(hello3());
@@ -79,19 +85,24 @@
 
 // let add2 = (a, b) => console.log(a + b);
 // add2(2, 2);
+
 // let add3 = (a, b) => a + b;
 // console.log(add3(2, 5));
 
 // let phone = 500;
 // let computer = 2000;
 // let todayUSD = 2800;
+
 // function usd(price) {
 //   console.log("$-" + price);
 // }
+
 // usd(phone);
 // usd(computer);
+
 // function mmk(price, usdrate) {
 //   console.log(price * usdrate + " -MMK");
 // }
+
 // mmk(phone, todayUSD);
 // mmk(computer, todayUSD);

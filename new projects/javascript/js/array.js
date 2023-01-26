@@ -17,6 +17,11 @@
 // console.log(name.length);
 // console.log(name);
 
+// push = add from end
+// unshift = add from start
+// pop = delete from end
+// shift = delete from start
+
 // let users = [];
 // users.push("apple");
 // users.push("orange");
@@ -35,14 +40,17 @@
 // let web_tech;
 // let webTech;
 // let webtech;
+// important
 
 // rare
 // let WebTech;
 // let _webTech;
+// rare
 
 // let tech1 = ["html", "css", "js", "php", "bootstrap", "mysql"];
-// let tech2 = ["react", "vus", "nodejs", "bootstrap", "mysql"];
+// let tech2 = ["react", "vue", "nodejs", "tillwind", "python"];
 // let tech3 = ["laravel", "nuxt", "jquery", "bulma", "next"];
+//(... rest operator)
 // let all_tech = [...tech1, ...tech2, ...tech3];
 // console.log(all_tech);
 // console.log(all_tech[0][3]);
@@ -52,16 +60,19 @@
 // console.log(all_tech[2][0]);
 // console.log(all_tech[0][4]);
 
-// let web = ["html", "css", "js", "php", "sql", "go"];
+// let web = ["html", "css", "js", "php", "sql", "python"];
+
 //array destructure
+
 //(... rest operator)
 // let [tech1, tech2, tech3, ...all] = web;
 // console.log(tech1);
 // console.log(tech2);
+// console.log(tech3);
 // console.log(all);
 // console.log(web[0]);
 
-// let web = ["html", "css", "js", "php", "sql", "go"];
+// let web = ["html", "css", "js", "php", "sql", "python"];
 // let a = "apple";
 // console.log(Array.isArray(web));
 // console.log(Array.isArray(a));
@@ -76,5 +87,5 @@
 // const arr = ["aaa", "bbb", "ccc", "ddd"];
 // const aa = arr.join(" - ");
 // const bb = arr.join("\n");
-// console.log(bb);
 // console.log(aa);
+// console.log(bb);

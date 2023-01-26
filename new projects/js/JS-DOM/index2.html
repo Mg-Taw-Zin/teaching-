@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+
+    <p class="p">Lorem ipsum dolor sit amet.</p>
+    <p id="p">Lorem ipsum dolor sit amet.</p>
+
+    <script>
+      let pclass = document.querySelector("#p");
+      let pid = document.querySelector(".p");
+
+      console.log(pclass);
+      console.log(pid);
+
+      pclass.style.color = "green";
+      pid.style.color = "blue";
+
+      let h1 = document.querySelectorAll("h1");
+
+      h1[1].style.color = "yellow";
+      console.log(h1);
+    </script>
+  </body>
+</html>

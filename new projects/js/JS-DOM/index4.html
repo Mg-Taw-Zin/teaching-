@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button>orange</button>
+    <button>pink</button>
+    <button>blue</button>
+    <button>white</button>
+    <button>red</button>
+    <button>tomato</button>
+
+    <script>
+      let btns = document.querySelectorAll("button");
+      //   console.log(btns);
+      btns.forEach((btn) => {
+        // console.log(btn);
+        btn.onclick = function () {
+          //   console.log(this);
+          console.log(this.innerHTML);
+          document.bgColor = this.innerHTML;
+        };
+      });
+    </script>
+  </body>
+</html>
