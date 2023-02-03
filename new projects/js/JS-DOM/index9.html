@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Select Your Country</h2>
+    <select name="" id="Country"></select>
+
+    <script>
+      let countries = [
+        "Myanmar",
+        "U.S.A",
+        "U.K",
+        "India",
+        "Japan",
+        "Russia",
+        "China",
+        "U.A.E",
+      ];
+      let country = document.querySelector("#Country");
+
+      countries.forEach((result) => {
+        console.log(result);
+        let choose = `<option value="${result}">${result}</option>`;
+        country.innerHTML += choose;
+      });
+    </script>
+  </body>
+</html>

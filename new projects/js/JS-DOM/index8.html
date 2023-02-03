@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div class="parent">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <div class="child1">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <div class="child2">
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <script>
+      let child1 = document.querySelector(".child1");
+      console.log(child1);
+      console.log(child1.parentElement);
+      console.log(child1.parentElement.parentElement);
+      console.log(child1.parentElement.parentElement.children);
+      console.log(child1.children);
+      console.log((child1.children[2].style.backgroundColor = "yellow"));
+      console.log(child1.previousElementSibling);
+      console.log((child1.previousElementSibling.innerHTML = "p"));
+      console.log(child1.previousElementSibling.previousElementSibling);
+      console.log(child1.nextElementSibling);
+      console.log(child1.nextElementSibling.nextElementSibling);
+
+      //   console.log((child1.parentElement.style.backgroundColor = "red"));
+    </script>
+  </body>
+</html>
