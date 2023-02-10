@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eos.
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quis
+        asperiores, facilis necessitatibus praesentium repellat. Quos accusamus
+        dicta suscipit vero praesentium ipsam quo atque eligendi reiciendis
+        voluptatibus, commodi tenetur consequatur?
+      </span>
+      <button>show</button>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eos.
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quis
+        asperiores, facilis necessitatibus praesentium repellat. Quos accusamus
+        dicta suscipit vero praesentium ipsam quo atque eligendi reiciendis
+        voluptatibus, commodi tenetur consequatur?
+      </span>
+      <button>show</button>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eos.
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quis
+        asperiores, facilis necessitatibus praesentium repellat. Quos accusamus
+        dicta suscipit vero praesentium ipsam quo atque eligendi reiciendis
+        voluptatibus, commodi tenetur consequatur?
+      </span>
+      <button>show</button>
+    </p>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".span").hide();
+        $("button").click(function () {
+          console.log($(this));
+          if ($(this).html() === "show") {
+            $(this).html("hide");
+          } else {
+            $(this).html("show");
+          }
+          $(this).prev().toggle(500);
+          //   $(this).parent().children("span").toggle(500);
+          //   $("button").parent().toggle(500);
+        });
+      });
+    </script>
+  </body>
+</html>

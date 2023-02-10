@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("<p>")
+          .html("Hello JQ")
+          .appendTo("body")
+          .css("color", "red")
+          .addClass("p p1")
+          .removeClass("p")
+          .removeAttr("class");
+        $("<h1>").html("Hello JQ").prependTo("body").css({
+          color: "blue",
+          background: "yellow",
+          padding: "5px",
+        });
+        $("<h2>")
+          .html("Hello JQ")
+          .prependTo("body")
+          .css("color", "red")
+          .css("background-color", "black")
+          .addClass("h2")
+          .attr("id", "h2")
+          .attr({
+            class: "h3",
+            id: "h3",
+            title: "h3",
+          });
+      });
+    </script>
+  </body>
+</html>

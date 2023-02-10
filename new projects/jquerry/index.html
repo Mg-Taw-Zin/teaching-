@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>hello</h1>
+    <button class="show">show</button>
+    <button class="hide">hide</button>
+    <button class="toggle">toggle</button>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("h1").hide();
+
+        $(".show").click(function () {
+          $("h1").show("slow");
+        });
+
+        $(".hide").click(function () {
+          $("h1").hide("fast");
+        });
+
+        $(".toggle").click(function () {
+          $("h1").toggle(1000);
+        });
+      });
+    </script>
+  </body>
+</html>

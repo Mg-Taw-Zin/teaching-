@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <div class="main">
+      <h1>Lorem ipsum dolor sit.</h1>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <div class="app1">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <div class="sub">
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <h1>Lorem ipsum dolor sit.</h1>
+      <p>Lorem ipsum dolor sit.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        let app1 = $(".app1");
+        console.log(app1);
+        console.log(app1.parent());
+        console.log(app1.parents());
+        console.log(app1.parents("body"));
+        console.log(app1.children());
+        console.log(app1.children("p"));
+        console.log(app1.children("p").html("p"));
+        console.log(app1.prev());
+        console.log(app1.prevAll());
+        console.log(app1.next());
+        console.log(app1.nextAll());
+      });
+    </script>
+  </body>
+</html>
