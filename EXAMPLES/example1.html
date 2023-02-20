@@ -1,37 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title></title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <button onclick="showalert();">Click to Show</button>
+    <p><button onclick="openwindow();">Click to open window</button></p>
 
-	<button onclick="showalert();">Click to Show</button>
-	<p><button onclick="openwindow();">Click to open window</button></p>
+    <script type="text/javascript">
+      // document.write("Hello");
+      // alert("Welcome to Javascript");
 
-	<script type="text/javascript">
-		// document.write("Hello");
-		// alert("Welcome to Javascript");
+      var name = null;
+      var decimalnumber = 0.9;
+      var conf = confirm("Are you boy?");
+      document.write(decimalnumber);
 
-		var name=null;
-		var decimalnumber=0.9;
-		var conf=confirm("Are you boy?");
-		document.write(decimalnumber);
+      // document.write(name)
 
-		// document.write(name)
+      function showalert() {
+        alert("Welcome");
+      }
 
-		function showalert()
-		{
-			alert('Welcome');
-		}
-
-		function openwindow()
-		{
-			window.open();
-		}
-
-
-	</script>
-
-</body>
+      function openwindow() {
+        window.open();
+      }
+    </script>
+  </body>
 </html>

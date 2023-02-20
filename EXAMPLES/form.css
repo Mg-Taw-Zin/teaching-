@@ -1,74 +1,69 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    color: #ffff;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #ffff;
 }
-body{
-    width: 100%;
-    height: 100vh;
-    background-image: url(./Jellyfish.jpg);
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Jellyfish.jpg);
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-form{
-    width: 500px;
-    height: auto;
-    background: rgba(10, 33, 78, 0.295);
-    margin: 90px auto;
-    padding: 30px;
-    box-shadow: 0 0 6px rgb(119, 12, 12),inset 0 0 5px rgb(65, 12, 12);
-    backdrop-filter: blur(4px);
-    border-radius: 6px;
+form {
+  width: 500px;
+  height: auto;
+  background: rgba(10, 33, 78, 0.295);
+  margin: 90px auto;
+  padding: 30px;
+  box-shadow: 0 0 6px rgb(119, 12, 12), inset 0 0 5px rgb(65, 12, 12);
+  backdrop-filter: blur(4px);
+  border-radius: 6px;
 }
-h1{
-    font-size: 2em;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 20px;
-    text-shadow: 3px 3px 3px rgba(11, 11, 85, 0.377);
-    color: rgb(172, 172, 18);
-    
-
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 3px rgba(11, 11, 85, 0.377);
+  color: rgb(172, 172, 18);
 }
-label,input{
-    display: block;
-    width: 100%;
-
-
+label,
+input {
+  display: block;
+  width: 100%;
 }
-label{
-    font-size: 1.3em;
-    margin-bottom: 5px;
-
+label {
+  font-size: 1.3em;
+  margin-bottom: 5px;
 }
-input{
-    padding: 12px 20px;
-    background: rgba(23, 13, 83, 0.349);
-    outline-color:rgb(183, 185, 21);
-    outline:none;
-    border: none;
-    box-shadow: 0 0 3px #ffff,inset 0 0 2px #ffff;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    font-size: 1.2em;
-    color: turquoise;
+input {
+  padding: 12px 20px;
+  background: rgba(23, 13, 83, 0.349);
+  outline-color: rgb(183, 185, 21);
+  outline: none;
+  border: none;
+  box-shadow: 0 0 3px #ffff, inset 0 0 2px #ffff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  color: turquoise;
 }
-input::placeholder{
-    color: aqua;
+input::placeholder {
+  color: aqua;
 }
-input[type="submit"]{
-    background: rgba(46, 15, 97, 0.493);
-    text-transform: uppercase;
-    cursor: pointer;
+input[type="submit"] {
+  background: rgba(46, 15, 97, 0.493);
+  text-transform: uppercase;
+  cursor: pointer;
 }
-.p{
-    color: red;
-    font-size: 30px;
-    padding: 10px;
+.p {
+  color: red;
+  font-size: 30px;
+  padding: 10px;
 }

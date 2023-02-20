@@ -1,94 +1,112 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>FORM</title>
-	<style type="text/css">
-		html{scroll-behavior: smooth;}
-	</style>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FORM</h1>
 
-	<h1>FORM</h1>
+    <input type="text" name="Email" placeholder="Email" />
+    <input type="text" name="name" placeholder="name" />
+    <input type="password" name="pasword" placeholder="password" />
 
-	<input type="text" name="Email" placeholder="Email">
-	<input type="text" name="name" placeholder="name">
-	<input type="password" name="pasword" placeholder="password">
+    <form action="list.html">
 
-	<form action="list.html">
 		<fieldset>
 			<legend>Student's Information</legend>
-				<table width="500px">
-					<tr>
-						<td>Frist Name:</td>
-						<td> <input type="text" name="" placeholder="First Name"> </td>
-					</tr>
-					<tr>
-						<td>Last Name:</td>
-						<td> <input type="text" name="" placeholder="Last Name"> </td>
-					</tr>
-					<tr>
-						<td>Password:</td>
-						<td> <input type="password" name="" placeholder="Password"> </td>
-					</tr>
-					<tr>
-						<td>Description:</td>
-						<td><textarea cols="22" rows="8" placeholder="Description"></textarea> </td>
-					<tr>
-						<td colspan="2">
-							<input type="button" name="" value="Register">
-							<input type="submit" name="" value="Submit">
-							<input type="reset" name="" value="Cancle">
-							<input type="image" name="" src="EX3pu5oUcAU9zAQ.jpg" width="100" height="50">
-						</td>
-					</tr>
-					</tr>
-
-				</table>
-		</fieldset>
-
-		<form>
-		
-		<label for="name">Name</label>
-		<input type="text"  id="name" required autocomplete="off"><br>
-		<label for="email">Email</label>
-		<input type="email"  id="email" required autocomplete="off"><br>
-		<label for="phone">Phone</label>
-		<input type="number"  id="phone" required><br>
-		<label for="age">Age</label>
-		<input type="number"  id="age" min="10" max="100"><br>
-		<label for="password">Password</label>
-		<input type="password" name="" id="password" required minlength="5" maxlength="20"><br>
-		<label for="address"> address</label>
-		<textarea name="address" id="address"></textarea> <br>
-		<label for="">Select Your Skills </label><br>
-
-		<input type="checkbox" name="html" checked="checked" id="" value="html">html
-		<input type="checkbox" name="css" id="" value="css">css
-		<input type="checkbox" name="js" id="" value="js">js
-		<input type="checkbox" name="java" id="" value="java">java
-		<hr>
-		Select Your Gender<br>
-		<input type="radio" name="Gender" id="" value="male">Male
-		<input type="radio" name="Gender" id="" value="female">Female<br>
-		<hr>
-		Your City <br>
-		<select name="city" id="">
-			<option value="ygn">Ygn</option>
-			<option value="mdy">Mdy</option>
-			<option value="bago">Bago</option>
-			<option value="naypyitaw">naypyitaw</option>
-			<option value="helgu">helgu</option>
-			<option value="pyi">pyi</option>
-			<option value="magway">magway</option>
-		</select><br>
-		<hr>
-		<input type="color" name="">hello <br>
-		<input type="range" name="">hello <br>
-		<input type="hidden" name="secret" value="secret">hello <br>
-
-		<input type="submit" value="Register"><br>
-
-	</form>
-
-</body>
+			<table width="500px">
+			  <tr>
+				<td>Frist Name:</td>
+				<td><input type="text" name="" placeholder="First Name" /></td>
+			  </tr>
+			  <tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="" placeholder="Last Name" /></td>
+			  </tr>
+			  <tr>
+				<td>Password:</td>
+				<td><input type="password" name="" placeholder="Password" /></td>
+			  </tr>
+			  <tr>
+				<td>Description:</td>
+				<td>
+				  <textarea cols="22" rows="8" placeholder="Description"></textarea>
+				</td>
+			  </tr>
+	  
+			  <tr>
+				<td colspan="2">
+				  <input type="button" name="" value="Register" />
+				  <input type="submit" name="" value="Submit" />
+				  <input type="reset" name="" value="Cancle" />
+				  <input
+					type="image"
+					name=""
+					src="EX3pu5oUcAU9zAQ.jpg"
+					width="100"
+					height="50"
+				  />
+				</td>
+			  </tr>
+			</table>
+		  </fieldset>
+      <label for="name">Name</label>
+      <input type="text" id="name" required autocomplete="off" /><br />
+      <label for="email">Email</label>
+      <input type="email" id="email" required autocomplete="off" /><br />
+      <label for="phone">Phone</label>
+      <input type="number" id="phone" required /><br />
+      <label for="age">Age</label>
+      <input type="number" id="age" min="10" max="100" /><br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name=""
+        id="password"
+        required
+        minlength="5"
+        maxlength="20"
+      /><br />
+      <label for="address"> address</label>
+      <textarea name="address" id="address"></textarea> <br />
+      <label for="">Select Your Skills </label><br />
+      <input
+        type="checkbox"
+        name="html"
+        checked="checked"
+        id=""
+        value="html"
+      />html <input type="checkbox" name="css" id="" value="css" />css
+      <input type="checkbox" name="js" id="" value="js" />js
+      <input type="checkbox" name="java" id="" value="java" />java
+      <hr />
+      Select Your Gender<br />
+      <input type="radio" name="Gender" id="" value="male" />Male
+      <input type="radio" name="Gender" id="" value="female" />Female<br />
+      <hr />
+      Your City <br />
+      <select name="city" id="">
+        <option value="ygn">Ygn</option>
+        <option value="mdy">Mdy</option>
+        <option value="bago">Bago</option>
+        <option value="naypyitaw">naypyitaw</option>
+        <option value="helgu">helgu</option>
+        <option value="pyi">pyi</option>
+        <option value="magway">magway</option></select
+      ><br />
+      <hr />
+      <input type="color" name="" />hello <br />
+      <input type="range" name="" />hello <br />
+      <input type="hidden" name="secret" value="secret" />hello <br />
+      <input type="submit" value="Register" /><br />
+    </form>
+  </body>
 </html>
