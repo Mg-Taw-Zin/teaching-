@@ -16,16 +16,20 @@ import StyleSheet from "./components/StyleSheet";
 import Inline from "./components/Inline";
 import "./appStyle.css";
 import style from "./appStyle.module.css";
+import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycleA";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="error">Error </h1>
+        <LifeCycleA />
+        {/* <Form /> */}
+        {/* <h1 className="error">Error </h1>
         <h1 className={style.success}>Success</h1>
-        {/* <Inline /> */}
-        {/* <StyleSheet primary={true } /> */}
-        {/* <NameList />
+        <Inline />
+        <StyleSheet primary={true} />
+        <NameList />
         <UserGreeting />
         <ParentComponent />
         <EventBind />
