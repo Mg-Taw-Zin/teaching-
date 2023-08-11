@@ -99,8 +99,8 @@
 //     let a = [];
 //     let b = [];
 //     while (i < count) {
-//       
-//diec start 
+//
+//diec start
 //       let res = Math.floor(this.sides * Math.random() + 1);
 //       if (res <= 3) {
 //         a.push(res);
